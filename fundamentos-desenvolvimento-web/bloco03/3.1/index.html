@@ -2,11 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    
+    
+    <style>
+        
+        body {
+            background-color: #90d7ff;
+        }
+        
+        #main-title {
+            font-family: 'Silkscreen', cursive;
+            font-weight: 36px;
+        }
+
+        #antonio-description {
+            font-family: 'Comfortaa', cursive;
+            background-color: #b8b3be;
+        }
+
+        #naturalidade {
+            font-style: italic;
+        }
+
+        .important-hability {
+            font-size: larger;
+        }
+
+
+
+    </style>
     
     <title>Meu primeiro portfólio web</title>
 </head>
 <body>
-    <h1>
+    <h1 id="main-title">
         Olá, bem vindos ao meu primeiro portfólio web! <br>
         <strong>Meu nome é Antonio Gabriel Gomes Teixeira </strong>
     </h1>
@@ -17,18 +53,18 @@
         <li><a href="#habilidades">Minhas habilidades</a></li>    
     </ul>
     <br>
-    <h2>
-        Sou brasileiro, nascido na cidade de Medianeira - PR. <br>
+    <h2 id="antonio-description">
+        Sou brasileiro, nascido na cidade de <strong id="naturalidade">Medianeira - PR.</strong>  <br>
         Na infância me mudei para o estado de Santa Catarina, onde cresci e aprendi a maioria das minhas habilidades. <br>
         Trabalhando com meu pai desenvolvi muito minha capacidade de comunicação, dentre outras softskills.
     </h2>
     <br>
     <ol id="habilidades">
-        <li> Comunicação </li>
-        <li> Pensamento critico </li>
-        <li> Auto liderança </li>
-        <li> Pro Gamer xD </li>
-        <li> Desenvolvedor em desenvolvimento </li>
+        <li class="important-hability"> Comunicação </li>
+        <li class="important-hability"> Pensamento critico </li>
+        <li class="important-hability"> Auto liderança </li>
+        <li class="no-important-hability"> Pro Gamer xD </li>
+        <li class="no-important-hability"> Desenvolvedor em desenvolvimento </li>
     </ol>    
     <br>
         <img width="200px" id="fotonamorada" src="./images/WhatsApp Image 2022-08-03 at 22.15.44.jpeg" alt="Foto minha e de minha namorada nas arquibancadas de um estádio de futebol">
