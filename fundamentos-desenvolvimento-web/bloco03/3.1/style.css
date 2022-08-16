@@ -1,0 +1,30 @@
+#heading {
+
+}
+
+#heading-text {
+    text-align: center;
+}
+
+#heading-descriptionimg {
+   
+}
+
+#img {
+    display: inline-block;
+    width: 30%;
+    padding: 30px;
+    margin: 5%;
+    background-color: aqua;
+}
+
+#description {
+    display: inline-block;
+    width: 30%;
+    margin: 5%;
+    padding: 5%;
+}
+
+#impares {
+    color: blue;
+}
